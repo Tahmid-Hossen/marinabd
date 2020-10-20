@@ -32,3 +32,13 @@ Route::post('store/registration', 'RegistrationController@store')->name('store.r
 Route::get('all/single-room-customer', 'RegistrationController@AllCustomer')->name('all.customer');
 Route::get('view/single_customer/{id}', 'RegistrationController@ViewSingleCustomer');
 Route::get('delete/single-customer/{id}', 'RegistrationController@DeleteSinglecustomer');
+
+Route::get('double/room/page', 'DoubleRoomController@Booking')->name('booking.page');
+Route::post('store/booking/customer', 'DoubleRoomController@store')->name('store.customer');
+Route::get('all/single-room-customer', 'DoubleRoomController@AllCustomer')->name('all.customer');
+Route::get('view/single_customer/{id}', 'DoubleRoomController@ViewDoubleCustomer');
+Route::get('delete/single-customer/{id}', 'DoubleRoomController@DeleteDoublecustomer');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

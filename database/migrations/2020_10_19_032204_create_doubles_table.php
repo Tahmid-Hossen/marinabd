@@ -15,6 +15,12 @@ class CreateDoublesTable extends Migration
     {
         Schema::create('doubles', function (Blueprint $table) {
             $table->id();
+            $table->string('email');
+            $table->integer('phone');
+            $table->string('member');
+            $table->string('a_date');
+            $table->string('l_date');
+            $table->string('address');
             $table->timestamps();
         });
     }

@@ -70,7 +70,7 @@
       <h5 class="mt-3 text-center">Here you can find our all room</h5>
       <div class="row">
         <div class="col-sm-3"><a href="{{ Route('single.room') }}" class="btn btn-primary">Single Room</a></div>
-        <div class="col-sm-3"><a href="{{ Route('double.room') }}" class="btn btn-primary">Double Room</a></div>
+        <div class="col-sm-3"><a href="{{ Route('booking.page') }}" class="btn btn-primary">Double Room</a></div>
         <div class="col-sm-3"><a href="{{ Route('tripple.room') }}" class="btn btn-primary">Thriple Room</a></div>
         <div class="col-sm-3"><a href="{{ Route('familly.room') }}" class="btn btn-primary">Familly Room</a></div>
       </div>

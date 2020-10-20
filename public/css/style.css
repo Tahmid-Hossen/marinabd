@@ -343,7 +343,7 @@ body {
 }
 
 .room-book {
-    background-color: #c38e22;
+    background-color: #3784e9;
     padding: 10px 15px;
     border-radius: 7px;
     color: #fff;
@@ -353,6 +353,7 @@ body {
 
 .room-book:hover {
     color: #fff;
+    background-color: #c38e22;
 }
 
 .find-room {
@@ -366,7 +367,7 @@ body {
 }
 
 .view-more {
-    background-color: #c38e22;
+    background-color: #3784e9;
     padding: 10px 10px 15px 10px;
     border-radius: 7px;
     color: #fff;
@@ -377,6 +378,20 @@ body {
 
 .view-more:hover {
     color: #fff;
+    background-color: #c38e22;
+}
+
+.room-image {
+
+    overflow: hidden;
+}
+
+.room-image img {
+    transition: transform .5s ease;
+}
+
+.room-image img:hover {
+    transform: scale(1.5);
 }
 
 /* blog-area-css */
@@ -397,6 +412,7 @@ body {
 
 .blog-image {
     width: 350px;
+    overflow: hidden;
 }
 
 .blog-image img {
@@ -410,7 +426,7 @@ body {
 }
 
 .readbtn {
-    background-color: #c38e22;
+    background-color: #3580f1;
     color: #fff;
     padding: 10px 10px;
     border-radius: 6px;
@@ -419,6 +435,7 @@ body {
 .readbtn:hover {
     color: #fff;
     text-decoration: none;
+    background-color: #c38e22;
 }
 
 .single-blog {

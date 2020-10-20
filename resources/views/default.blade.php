@@ -53,9 +53,9 @@
 </div>
 <!-- End Menu Area -->
 
-<div class="container">
+
   @yield('content')
-</div>
+
 
 <!-- Start footer area -->
 <div class="footer-area mt-5">
