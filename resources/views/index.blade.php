@@ -200,7 +200,7 @@
                         </div>
                         <div class="testi-content">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, minus amet facere quibusdam provident inventore. Consequuntur, quisquam architecto, nulla sapiente error distinctio in eaque minus expedita neque quaerat dolore culpa!</p>
-                            <h1>Tahmid Hossen</h1>
+                            <h2>Tahmid Hossen</h2>
                             <p>client</p>
                         </div>
                         </div>
@@ -213,7 +213,7 @@
                         </div>
                         <div class="testi-content">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, minus amet facere quibusdam provident inventore. Consequuntur, quisquam architecto, nulla sapiente error distinctio in eaque minus expedita neque quaerat dolore culpa!</p>
-                            <h1>Tahmid Hossen</h1>
+                            <h2>Tahmid Hossen</h2>
                             <p>client</p>
                         </div>
                         </div>
@@ -226,7 +226,7 @@
                         </div>
                         <div class="testi-content">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, minus amet facere quibusdam provident inventore. Consequuntur, quisquam architecto, nulla sapiente error distinctio in eaque minus expedita neque quaerat dolore culpa!</p>
-                            <h1>Tahmid Hossen</h1>
+                            <h2>Tahmid Hossen</h2>
                             <p>client</p>
                         </div>
                         </div>

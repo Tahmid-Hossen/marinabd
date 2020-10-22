@@ -30,11 +30,15 @@
       </tr>
 
       <tr>
-      <th scope="row"><h5><a href="" style="color: #ffff; text-decoration: none;">Add Event </a></h5></th>
+      <th scope="row"><h5><a href="" style="color: #ffff; text-decoration: none;">Add Rooms</a></h5></th>
+      </tr>
+
+       <tr>
+      <th scope="row"><h5><a href="" style="color: #ffff; text-decoration: none;">Add testimonial </a></h5></th>
       </tr>
 
       <tr>
-      <th scope="row"><h5><a href="" style="color: #ffff; text-decoration: none;">Add Announcements </a></h5></th>
+      <th scope="row"><h5><a href="" style="color: #ffff; text-decoration: none;">Add Blog </a></h5></th>
       </tr>
       </tbody>
     </table>

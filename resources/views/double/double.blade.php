@@ -3,7 +3,7 @@
 <div class="single mt-5">
     <div class="container">
         <div class="form-header mb-5 text-center">
-            <h1>Book your favourite single room.</h1>
+            <h1>Book your favourite Double room.</h1>
         </div>
         <div class="row">
             <div class="col-sm-8">
@@ -61,7 +61,7 @@
                 <div class="form-group">
                   <label for="l_date">Address</label>
                   <!-- <input required type="text" name="address" class="form-control" placeholder="type your present address"> -->
-                  <textarea name="text" cols="40" rows="10"></textarea>
+                  <textarea name="text" cols="40" rows="5"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary btn-lg btn-block mb-2">Submit</button>
             </form>

@@ -34,12 +34,11 @@
       <div class="col-sm-6">
         <div class="menu">
             <ul>
-              <li><a href="{{ url('/') }}">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Pages</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="{{ url('/') }}">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">SERVICE</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACTS</a></li>
             </ul>
         </div>
       </div>
@@ -58,7 +57,7 @@
 <div id="booking" class="section">
   <div class="container">
     <div class="intro">
-      <h1><span class="heading-primary-main">Welcome to Hotel Marina International Limited</span></h1>
+      <h2><span class="heading-primary-main">Welcome to Hotel Marina International Limited</span></h2>
        <span class="heading-primary-sub"><h5>Get in Touch:
         <i class="fab facebook fa-facebook-f"></i>
         <i class="fab instagrame fa-instagram"></i>
@@ -69,7 +68,7 @@
     <div class="find-room">
       <h5 class="mt-3 text-center">Here you can find our all room</h5>
       <div class="row">
-        <div class="col-sm-3"><a href="{{ Route('single.room') }}" class="btn btn-primary">Single Room</a></div>
+        <div class="col-sm-3"><a href="{{ Route('single.room') }}" class="btn btn-room btn-primary">Single Room</a></div>
         <div class="col-sm-3"><a href="{{ Route('booking.page') }}" class="btn btn-primary">Double Room</a></div>
         <div class="col-sm-3"><a href="{{ Route('tripple.room') }}" class="btn btn-primary">Thriple Room</a></div>
         <div class="col-sm-3"><a href="{{ Route('familly.room') }}" class="btn btn-primary">Familly Room</a></div>
@@ -88,7 +87,7 @@
     <div class="row">
       <div class="col-sm-3">
         <div class="footer-col">
-          <h1>Hotel Marina</h1>
+          <h2>Hotel Marina</h2>
           <i class="fab facebook fa-facebook-f"></i>
           <i class="fab instagrame fa-instagram"></i>
           <i class="fab youtube fa-youtube"></i>
@@ -98,7 +97,7 @@
       </div>
       <div class="col-sm-3">
         <div class="footer-col">
-          <h1>Quick Links</h1>
+          <h2>Quick Links</h2>
           <ul>
             <li>About HotelMarina</li>
             <li>About HotelMarina</li>
@@ -109,7 +108,7 @@
       </div>
       <div class="col-sm-3">
         <div class="footer-col">
-          <h1>Reservation</h1>
+          <h2>Reservation</h2>
           <ul>
             <li>Tel: 345 5667 889</li>
             <li>Skype: Marianabooking</li>
@@ -121,7 +120,7 @@
       <div class="col-sm-3">
       <div class="footer-col">
         <div class="social-media">
-          <h1>Our Location</h1>
+          <h2>Our Location</h2>
            <ul>
               <li>198 West 21th Street,</li>
               <li>Suite 721 New York NY 10016</li>

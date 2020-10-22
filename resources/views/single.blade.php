@@ -61,7 +61,7 @@
                 <div class="form-group">
                   <label for="l_date">Address</label>
                   <!-- <input required type="text" name="address" class="form-control" placeholder="type your present address"> -->
-                  <textarea name="text" cols="40" rows="10"></textarea>
+                  <textarea name="text" cols="40" rows="5"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary btn-lg btn-block mb-2">Submit</button>
             </form>
