@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class DoubleRoomController extends Controller
 {
-    public function Booking() {
+    public function double() {
         return view('double.double');
       }
 

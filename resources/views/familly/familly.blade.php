@@ -51,7 +51,7 @@
         </table>
     </div>
   </div>
-   <h1 class="text-center mb-5">Some single room sample</h1>
+   <h1 class="text-center mb-5">Some Familly room sample</h1>
   <div class="row">
     <div class="col-sm-4">
       <div class="room-image">

@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class trippleRoomConteroller extends Controller
+class TrippleRoomController extends Controller
 {
-    //
+     public function tripple() {
+        return view('tripple.tripple');
+      }
 }
