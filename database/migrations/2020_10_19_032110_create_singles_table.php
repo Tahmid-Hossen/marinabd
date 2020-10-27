@@ -15,12 +15,14 @@ class CreateSinglesTable extends Migration
     {
         Schema::create('singles', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable();
+            $table->string('a-date')->nullable();
+            $table->string('l-date');
+            $table->string('name');
             $table->string('email');
-            $table->integer('phone');
+            $table->number('phone');
+            $table->text('gender');
+            $table->number('room');
             $table->string('member');
-            $table->string('a_date');
-            $table->string('l_date');
             $table->string('address');
             $table->timestamps();
         });

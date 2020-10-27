@@ -25,7 +25,7 @@
               <td>101, 102, 103</td>
               <td>102, 103</td>
               <td>101</td>
-              <td><a href="" class="btn btn-primary">Reserve</a></td>
+              <td><a href="{{ Route('reserve.room') }}" class="btn btn-primary">Reserve</a></td>
             </tr>
             <tr>
               <th scope="row">2nd Floor</th>
@@ -35,7 +35,7 @@
               <td>101, 102, 103</td>
               <td>102, 103</td>
               <td>101</td>
-              <td><a href="" class="btn btn-primary">Reserve</a></td>
+              <td><a href="{{ Route('reserve.room') }}" class="btn btn-primary">Reserve</a></td>
             </tr>
             <tr>
               <th scope="row">3rd Floor</th>
@@ -45,7 +45,7 @@
               <td>101, 102, 103</td>
               <td>102, 103</td>
               <td>101</td>
-              <td><a href="" class="btn btn-primary">Reserve</a></td>
+              <td><a href="{{ Route('reserve.room') }}" class="btn btn-primary">Reserve</a></td>
             </tr>
           </tbody>
         </table>

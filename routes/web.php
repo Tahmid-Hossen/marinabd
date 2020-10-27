@@ -26,7 +26,7 @@ Route::get('double', 'DoubleRoomController@double')->name('double.room');
 Route::get('tripple', 'TrippleRoomController@tripple')->name('tripple.room');
 Route::get('familly', 'FamillyRoomController@familly')->name('familly.room');
 
-
+Route::get('reserve-room', 'SingleRoomController@create')->name('reserve.room');
 Route::get('registration/page', 'RegistrationController@registration')->name('registration.page');
 Route::post('store/registration', 'RegistrationController@store')->name('store.registration');
 Route::get('all/single-room-customer', 'RegistrationController@AllCustomer')->name('all.customer');
@@ -38,6 +38,8 @@ Route::post('store/booking/customer', 'DoubleRoomController@store')->name('store
 Route::get('all/single-room-customer', 'DoubleRoomController@AllCustomer')->name('all.customer');
 Route::get('view/single_customer/{id}', 'DoubleRoomController@ViewDoubleCustomer');
 Route::get('delete/single-customer/{id}', 'DoubleRoomController@DeleteDoublecustomer');*/
+
+Route::get('restaurent', 'RestaurentController@restaurent')->name('restaurent.page');
 
 Auth::routes();
 

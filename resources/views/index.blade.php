@@ -6,8 +6,7 @@
         <h1 class="text-center mb-5"><strong>About US</strong></h1>
         <div class="row">
             <div class="col-sm-4">
-                <p class="text-justify">After fifty years of glorious past, Hotel Marina International Limited revives its famed legacy of comfort, elegance and impeccable service. An eminent landmark constructed in 1964, this legendary first private hotel of Cox’s Bazar is reborn, infusing modern sophistication into this vintage-chic, iconic hotel at a new beachfront location of Marine Drive, Kolatoli, Cox’s Bazar.
-                With its richly historic past, the Marina International Limited now fully becomes a part of the exciting and rapidly changing present with the addition of a modern, elegant luxury ocean front hotel. The beauty of Cox’s Bazar – the climate, the panoramic ocean views, the sandy beaches, plus the rich culture and history along with the warmth of the sun – is what attracts people here. And the Sayeman Beach Resort provides you exactly just that with extraordinary comfort, luxury and services.</p>
+                <p class="text-justify">২৩শে অক্টোবর সকাল ৭টার আবহাওয়া বিজ্ঞপ্তিতে জানানো হয় যে উত্তর-পশ্চিম বঙ্গোপসাগরের নিম্নচাপটি উত্তর-পূর্ব দিকে অগ্রসর হয়েছে এবং একই দিকে আরো অগ্রসর হতে পারে। বঙ্গোপসাগরের এই নিম্নচাপটির কারণে বৃহস্পতিবার সকাল থেকে দেশের দক্ষিণাঞ্চলীয় জেলাগুলোতে ভারী বৃষ্টি হয়েছে। রাজধানী ঢাকা সহ মধ্যাঞ্চলীয় জেলাগুলোতেও ভারী থেকে মাঝারি বৃষ্টিপাত হয়েছে। আবহাওয়াবিদ আবদুর রহমান খান জানান, আবহাওয়া অধিদপ্তরের ধারণা অনুযায়ী আজ [শুক্রবার] দুপুর বা সন্ধ্যায় নিম্নচাপটি পশ্চিমবঙ্গ ও বাংলাদেশের ওপর দিয়ে অতিক্রম করতে পারে।এর ফলে শুক্রবার সারাদিন এবং শনিবার দুপুর পর্যন্ত রাজধানী ঢাকা সহ দেশের বিভিন্ন অঞ্চলে বৃষ্টি ও ঝড়ো বাতাস অব্যাহত থাকতে পারে বলে ধারণা প্রকাশ করেন তিনি। তিনি বলেন, "আমাদের অনুমান, আগামীকাল দুপুর থেকে আবহাওয়া ধীরে ধীরে স্বাভাবিক হতে শুরু করতে পারে। রবিবার সকাল থেকে বাতাসের গতিবেগ, বৃষ্টি এবং মেঘ স্বাভাবিক পর্যায়ে চলে আসবে বলে ধারণা করা যেতে পারে।"</p>
             </div>
             <div class="col-sm-4">
                 <img src="images/room2.jpg" alt="" style="height: 400px; width: 350px;">
@@ -235,5 +234,38 @@
             </div>
         </div>
     </div>
+
+
+<div class="container mt-5">
+    <h1 class="text-center">Find our location</h1>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="location">
+                <h4 class="mt-3 text-center">Google Map</h4>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.432594622134!2d90.39792401543298!3d23.874274189948675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c43bb800c33f%3A0xd2b2df37f280ef37!2sNorth%20Tower%2C%20Sonargaon%20Janapath%2C%20Dhaka%201230!5e0!3m2!1sen!2sbd!4v1600024744789!5m2!1sen!2sbd" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="sent-message">
+                <p><strong>Send us your message</strong></p>
+                <form action="" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="form-group">
+                    <input required type="text" name="name" class="form-control" placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                    <input required type="text" name="email" class="form-control" placeholder="Enter your email">
+                    </div>  
+                    <div class="form-group">
+                    <textarea name="text" cols="75" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block mb-2">Send us</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 @stop
 

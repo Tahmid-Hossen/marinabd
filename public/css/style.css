@@ -193,6 +193,32 @@ h1::after {
     transform: translateY(-1rem);
 }
 
+.btn-room {
+    background-color: #0095DA;
+}
+
+.restaurent-section {
+    position: relative;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.restaurent-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: White;
+
+}
+
+.location {
+    overflow: hidden;
+}
+
 /* .booking-form {
 	background-color: #fff;
 	max-width: 768px;
@@ -332,6 +358,9 @@ h1::after {
 } */
 
 /* Room Section */
+
+
+
 .room-section {
     margin-top: 100px;
 }
@@ -491,21 +520,26 @@ h1::after {
     height: auto;
     padding: 0px 20px 50px 20px;
     text-align: center;
-    border: 3px solid #999;
+    border: 1px solid #999;
     margin-top: 80px;
 }
 
 .testi-image {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     margin: auto;
     position: relative;
     top: -60px;
+
+}
+
+.testi-image:hover {
+    border-radius: 3px solid #eac15a;
 }
 
 .testi-image:before {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: #fff;
     color: #c38e22;
     font-family: 'Cardo', serif;
@@ -522,7 +556,10 @@ h1::after {
     object-fit: cover;
     object-position: top;
     border-radius: 80px;
+    border: 1px solid #999;
 }
+
+.testi-image img:hover {}
 
 .testi-content {
     width: 100%;
@@ -761,4 +798,12 @@ h1::after {
     display: block;
     border-radius: 3px;
     text-transform: uppercase;
+}
+
+.a-date {
+    color: #fff;
+}
+
+.l-date {
+    color: #fff;
 }
