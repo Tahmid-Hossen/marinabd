@@ -180,17 +180,21 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
 }
 
-h1::before,
-h1::after {
-    display: inline-block;
-    content: "";
-    border-top: .3rem solid black;
-    width: 4rem;
-    margin: 0 1rem;
-    transform: translateY(-1rem);
+h1 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.test {
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
 }
 
 .btn-room {
