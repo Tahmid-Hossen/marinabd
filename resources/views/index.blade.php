@@ -74,8 +74,8 @@
 
 
             <!-- Blog Area -->
-            <div class="blog-area mt-5">
-            <div class="container">
+            <div class="blog-area">
+            <div class="container mt-5">
                 <h1 class="text-center mb-5 subtitle fancy"><span>Our Recent Blog</span></h1>
                 <div class="row">
                 <div class="col-sm-4">
