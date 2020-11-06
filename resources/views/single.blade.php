@@ -41,19 +41,19 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="room-image">
-        <img src="images/room1.jpg" alt="">
+         <img src="images/603/1.jpg" alt="" style="height: 400px; width: 350px;">
       </div>
     </div>
 
     <div class="col-sm-4">
       <div class="room-image">
-        <img src="images/room1.jpg" alt="">
+         <img src="images/603/2.jpg" alt="" style="height: 400px; width: 350px;">
       </div>
     </div>
 
     <div class="col-sm-4">
       <div class="room-image">
-        <img src="images/room1.jpg" alt="">
+         <img src="images/603/3.jpg" alt="" style="height: 400px; width: 350px;">
       </div>
     </div>
 
