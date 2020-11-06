@@ -9,4 +9,8 @@ class RestaurentController extends Controller
      public function restaurent() {
         return view('restaurent.restaurent');
       }
+
+      public function srbook() {
+        
+      }
 }

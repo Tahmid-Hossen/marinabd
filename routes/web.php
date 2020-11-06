@@ -29,6 +29,7 @@ Route::get('familly', 'FamillyRoomController@familly')->name('familly.room');
 Route::get('reserve-room', 'SingleRoomController@create')->name('reserve.room');
 Route::get('registration/page', 'RegistrationController@registration')->name('registration.page');
 Route::post('store/registration', 'RegistrationController@store')->name('store.registration');
+Route::post('store/sroom-user', 'RegistrationController@srbook')->name('srbook.registration');
 Route::get('all/single-room-customer', 'RegistrationController@AllCustomer')->name('all.customer');
 Route::get('view/single_customer/{id}', 'RegistrationController@ViewSingleCustomer');
 Route::get('delete/single-customer/{id}', 'RegistrationController@DeleteSinglecustomer');
