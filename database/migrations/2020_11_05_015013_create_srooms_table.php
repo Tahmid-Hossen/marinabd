@@ -15,7 +15,17 @@ class CreateSroomsTable extends Migration
     {
         Schema::create('srooms', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('email')->nullable();
+            $table->string('room_two');
+            $table->string('room_three');
+            $table->string('room_four');
+            $table->string('room_five');
+            $table->string('room_six');
+            $table->string('room_seven');
+            $table->string('room_eight');
+            $table->string('room_nine');
+            $table->string('room_ten');
+            $table->string('room_eleven');
+            $table->string('room_twelve');
             $table->softDeletes();
             $table->timestamps();
         });
