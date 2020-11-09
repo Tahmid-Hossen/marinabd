@@ -36,7 +36,7 @@
             <ul>
               <li><a href="{{ url('/') }}">HOME</a></li>
               <li><a href="#">ABOUT</a></li>
-              <li><a href="#">SERVICE</a></li>
+              <li><a href="#">ROOM</a></li>
               <li><a href="#">BLOG</a></li>
               <li><a href="#">CONTACTS</a></li>
             </ul>

@@ -88,9 +88,9 @@ body {
 
 .intro {
     position: absolute;
-    width: 700px;
+    width: 1050px;
     height: 200px;
-    top: 20%;
+    top: 18%;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
@@ -101,17 +101,17 @@ body {
 
 .intro h2 {
     display: block;
-    font-weight: 100;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 1px;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 3px 2px 20px;
 }
 
 .heading-primary-main {
     font-size: 40px;
-    font-weight: 400;
 }
 
 .heading-primary-sub {
@@ -173,9 +173,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/background.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: -5px -135px;
     position: relative;
     border-top: 4px solid #c38e22;
+
 }
 
 #booking::before {
@@ -448,7 +449,7 @@ body {
 
 
 .room-section {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .room-section h1 {
@@ -488,10 +489,10 @@ body {
 
 .find-room {
     color: #f1f1f1;
-    width: 700px;
+    width: 1050px;
     height: 150px;
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -499,13 +500,14 @@ body {
 .rbtn {
     background: rgba(0, 0, 0, 0.8);
     background: rgba(0, 0, 0, 0.8);
-    width: 250px;
-    padding: 20px;
-    margin-bottom: 20px !important;
+    width: 170px;
+    padding: 10px;
+    margin-bottom: 10px !important;
     margin-right: 30px;
     border-bottom: 3px solid #c38e22;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
+
 }
 
 .rbtn a {
@@ -519,23 +521,17 @@ body {
     color: #fff;
 }
 
-.all-room {
-    border-right: 2px dotted #3784e9;
-}
-
 .Vrbtn {
 
     background: rgba(0, 0, 0, 0.8);
     background: rgba(0, 0, 0, 0.8);
     width: 250px;
     padding: 20px;
-    margin-bottom: 20px !important;
-    margin-right: 30px;
     border-bottom: 3px solid #3784e9;
     font-size: 20px;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 17%;
 }
 
 .Vrbtn a {

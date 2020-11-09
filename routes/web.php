@@ -19,14 +19,44 @@ Route::get('/', function () {
 
 Route::get('admin/page', 'AdminController@admin')->name('admin.page');
 
+// Route::get('payment', 'singleRoomController@admin')->name('admin.page');
+
 
 // Route::get('/home', 'HomeController@index')->name('home');
-Route::get('single', 'HomeController@single')->name('single.room');
-Route::get('double', 'DoubleRoomController@double')->name('double.room');
-Route::get('tripple', 'TrippleRoomController@tripple')->name('tripple.room');
-Route::get('familly', 'FamillyRoomController@familly')->name('familly.room');
+Route::get('customer/payment', 'SingleRoomController@payment')->name('customer.payment');
+Route::get('customer/payment', 'DoubleRoomController@payment')->name('customer.payment');
+Route::get('customer/payment', 'TrippleRoomController@payment')->name('customer.payment');
+Route::get('customer/payment', 'FamillyRoomController@payment')->name('customer.payment');
 
-Route::get('reserve-room', 'SingleRoomController@create')->name('reserve.room');
+// Route::get('payment/customer', function () {
+//     return view("payment.payment");
+// });
+
+
+Route::get('single', 'SingleRoomController@single')->name('single.room');
+Route::post('store/single_room', 'SingleRoomController@store')->name('store.single_room');
+Route::get('reserve-room/customer', 'SingleRoomController@create')->name('reserve.roomcustomer');
+Route::POST('store/reserve-room/customer', 'SingleRoomController@storesinglecustomer')->name('store.single_customer');
+
+
+Route::get('double', 'DoubleRoomController@double')->name('double.room');
+Route::post('store/double_room', 'DoubleRoomController@store')->name('store.double_room');
+Route::get('reserve-double-room/customer', 'DoubleRoomController@create')->name('reserve.doublecustomer');
+Route::POST('store/double-room/customer', 'DoubleRoomController@storedoublecustomer')->name('store.double_customer');
+
+
+Route::get('tripple', 'TrippleRoomController@tripple')->name('tripple.room');
+Route::post('store/tripple_room', 'TrippleRoomController@store')->name('store.tripple_room');
+Route::get('reserve-tripple-room/customer', 'TrippleRoomController@create')->name('reserve.tripplecustomer');
+Route::POST('store/tripple-room/customer', 'TrippleRoomController@storetripplecustomer')->name('store.tripple_customer');
+
+
+Route::get('familly', 'FamillyRoomController@familly')->name('familly.room');
+Route::post('store/familly_room', 'FamillyRoomController@store')->name('store.familly_room');
+Route::get('reserve-familly-room/customer', 'FamillyRoomController@create')->name('reserve.famillycustomer');
+Route::POST('store/familly-room/customer', 'FamillyRoomController@storefamillycustomer')->name('store.familly_customer');
+
+
 Route::get('registration/page', 'RegistrationController@registration')->name('registration.page');
 Route::post('store/registration', 'RegistrationController@store')->name('store.registration');
 Route::post('store/sroom-user', 'RegistrationController@srbook')->name('srbook.registration');

@@ -36,7 +36,7 @@
             <ul>
               <li><a href="{{ url('/') }}">HOME</a></li>
               <li><a href="#">ABOUT</a></li>
-              <li><a href="#">SERVICE</a></li>
+              <li><a href="#">ROOM</a></li>
               <li><a href="#">BLOG</a></li>
               <li><a href="#">CONTACTS</a></li>
             </ul>
@@ -67,29 +67,29 @@
     </div>
     <div class="find-room">
       <div class="row">
-        <div class="col-sm-6">
-          <div class="all-room">
-             <div class="rbtn">
-           <a href="{{ Route('single.room') }}" class="">SINGLE ROOM</a>
+         <div class="col-sm-2">
+            <div class="rbtn">
+              <a href="{{ Route('single.room') }}" class="">SINGLE ROOM</a>
+            </div>
+            <div class="rbtn">
+              <a href="{{ Route('double.room') }}" class="">DOUBLE ROOM</a><br>
+            </div>
+		     </div>
+        <div class="col-sm-2">
+          <div class="rbtn">
+            <a href="{{ Route('tripple.room') }}" class="">TRIPPLE ROOM</a><br>
           </div>
           <div class="rbtn">
-           <a href="{{ Route('double.room') }}" class="">DOUBLE ROOM</a><br>
-          </div>
-          <div class="rbtn">
-           <a href="{{ Route('tripple.room') }}" class="">TRIPPLE ROOM</a><br>
-          </div>
-          <div class="rbtn">
-           <a href="{{ Route('familly.room') }}" class="">FAMILLY ROOM</a>
-          </div>
+            <a href="{{ Route('familly.room') }}" class="">FAMILLY ROOM</a>
           </div>
         </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-5">
-          <div class="Vrbtn">
-            <a href="{{ Route('restaurent.page') }}" class="">VISIT RESTAURENT</a>
-          </div>
+        <div class="col-sm-5"></div>
+		   <div class="col-sm-3">
+              <div class="Vrbtn">
+                 <a href="{{ Route('restaurent.page') }}" class="">VISIT RESTAURENT</a>
+              </div>
+           </div>
         </div>
-      </div>
     </div>
   </div>
 </div>

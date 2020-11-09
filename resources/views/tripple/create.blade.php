@@ -1,14 +1,14 @@
 @extends('default')
 @section('content')
     <div class="container">
-        <h1 class="text-center">Book your favourite single room.</h1>
+        <h1 class="text-center">Book your favourite selected tripple room.</h1>
         <div class="row">
             <div class="col-sm-8">
                 <div class="reserve-form mt-4">
-                        <form action="{{ route('store.single_customer') }}" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('store.tripple_customer') }}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group">
-                              <label for="name" class="a-date">Arrive Date</label>
+                              <label for="name" class="l_date">Arrive Date</label>
                               <input required type="date" name="a_date" class="form-control" placeholder="when you will come">
                             </div>
                             <div class="form-group">

@@ -40,56 +40,16 @@
                         <div class="form-group">
                           <span class="form-label">Leave Date</span>
                           <input class="form-control" type="date" required>
-                      </div>
-                          <div class="row">
-                              <div class="col-sm-12">
-                                  <div class="row">
-                                      <div class="col-sm-6">
-                                          <div class="form-group">
-                                              <span class="form-label">Adult</span>
-                                              <select class="form-control">
-                                                  <option>1</option>
-                                                  <option>2</option>
-                                                  <option>3</option>
-                                                  <option>4</option>
-                                                  <option>5</option>
-                                                  <option>6</option>
-                                                  <option>7</option>
-                                                  <option>8</option>
-                                                  <option>9</option>
-                                                  <option>10</option>
-                                                  <option>11</option>
-                                                  <option>12</option>
-                                              </select>
-                                              <span class="select-arrow"></span>
-                                          </div>
-                                      </div>
-                                      <div class="col-sm-6">
-                                          <div class="form-group">
-                                              <span class="form-label">Child</span>
-                                              <select class="form-control">
-                                                  <option>1</option>
-                                                  <option>2</option>
-                                                  <option>3</option>
-                                                  <option>4</option>
-                                                  <option>5</option>
-                                                  <option>6</option>
-                                                  <option>7</option>
-                                                  <option>8</option>
-                                                  <option>9</option>
-                                                  <option>10</option>
-                                                  <option>11</option>
-                                                  <option>11</option>
-                                              </select>
-                                              <span class="select-arrow"></span>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="form-btn">
-                              <button type="submit" class="submit-btn">Book Now</button>
-                          </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="form-label">Address</span>
+                            <!-- <input required type="text" name="address" class="form-control" placeholder="type your present address"> -->
+                            <textarea name="text" class="form-control" cols="40" rows="10"></textarea>
+                        </div>
+                        <div class="form-btn">
+                            <button type="submit" class="submit-btn">Book Now</button>
+                        </div>
                       </form>
                   </div>
               </div>

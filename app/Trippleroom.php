@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Singleroom extends Model
+class Trippleroom extends Model
 {
     protected $casts = [
         'category' => 'array',

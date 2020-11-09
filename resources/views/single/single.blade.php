@@ -10,18 +10,18 @@
               <th scope="col-sm-7">Room numbers</th>
             </tr>
           </thead>
-          <h4>Chose your tripple room</h4><br>  
+          <h4>Chose your single room</h4><br>  
           <tbody>
             <tr>
-              <th scope="row">Tripple Room</th>
+              <th scope="row">Single Room</th>
               <td>
-                <form action="{{ route('store.tripple_room') }}" method="POST">  
+                <form action="{{ route('store.single_room') }}" method="POST">  
                     @csrf  
                     <div class="form-group">
                       <label class="" for="name">Your name</label>
                       <input required type="text" name="name" class="form-control" placeholder="Enter your full name">
                     </div> 
-                    <label for="Category"><strong>Select your suitable tripple room: </strong></label><br>
+                    <label for="Category"><strong>Select your suitable single room: </strong></label><br>
                     <label><input type="checkbox" name="category[]" value="601">601</label>    
                     <label><input type="checkbox" name="category[]" value="602">602</label> 
                     <label><input type="checkbox" name="category[]" value="603">603</label>

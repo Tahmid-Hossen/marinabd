@@ -15,6 +15,15 @@ class CreateFamilliesTable extends Migration
     {
         Schema::create('famillies', function (Blueprint $table) {
             $table->id();
+            $table->string('a_date')->nullable();
+            $table->string('l_date');
+            $table->string('name');
+            $table->string('email');
+            $table->string('phone');
+            $table->text('gender');
+            $table->string('total_room');
+            $table->string('total_member');
+            $table->string('address');
             $table->timestamps();
         });
     }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTripplesTable extends Migration
+class CreateSinglesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateTripplesTable extends Migration
      */
     public function up()
     {
-        Schema::create('tripples', function (Blueprint $table) {
+        Schema::create('singles', function (Blueprint $table) {
             $table->id();
             $table->string('a_date')->nullable();
             $table->string('l_date');
@@ -35,6 +35,6 @@ class CreateTripplesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tripples');
+        Schema::dropIfExists('singles');
     }
 }
