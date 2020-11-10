@@ -28,9 +28,9 @@ class SingleRoomController extends Controller
         return view('single.create');
     }
     
-    public function payment() {
-        return view("payment.payemnt");
-    }
+    // public function payment() {
+    //     return view("payment.payemnt");
+    // }
 
     public function storesinglecustomer(Request $request) {
       $this->validate($request, [
@@ -56,8 +56,8 @@ class SingleRoomController extends Controller
     $single->total_member = $request->total_member;
     $single->address = $request->address;
     $single->save();
-    return redirect("payment")->with('message', 'Successful');
-    // return redirect('payment/customer');
+    // return redirect("payment")->with('message', 'Successful');
+    return redirect('payment/customer');
     }
 
     

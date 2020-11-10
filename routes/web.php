@@ -23,14 +23,16 @@ Route::get('admin/page', 'AdminController@admin')->name('admin.page');
 
 
 // Route::get('/home', 'HomeController@index')->name('home');
-Route::get('customer/payment', 'SingleRoomController@payment')->name('customer.payment');
-Route::get('customer/payment', 'DoubleRoomController@payment')->name('customer.payment');
-Route::get('customer/payment', 'TrippleRoomController@payment')->name('customer.payment');
-Route::get('customer/payment', 'FamillyRoomController@payment')->name('customer.payment');
+// Route::get('customer/payment', 'SingleRoomController@payment')->name('customer.payment');
+// Route::get('customer/payment', 'DoubleRoomController@payment')->name('customer.payment');
+// Route::get('customer/payment', 'TrippleRoomController@payment')->name('customer.payment');
+// Route::get('customer/payment', 'FamillyRoomController@payment')->name('customer.payment');
 
-// Route::get('payment/customer', function () {
-//     return view("payment.payment");
-// });
+Route::get('payment/customer', function () {
+    return view("payment.payment");
+});
+
+Route::get('room', 'HomeController@room')->name('all.room');
 
 
 Route::get('single', 'SingleRoomController@single')->name('single.room');

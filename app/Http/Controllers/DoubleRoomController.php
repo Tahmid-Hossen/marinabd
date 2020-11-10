@@ -56,26 +56,27 @@ class DoubleRoomController extends Controller
     $double->total_member = $request->total_member;
     $double->address = $request->address;
     $double->save();
-    return redirect()->route("customer.payment")->with('message', 'Successful');
+    return redirect('payment/customer');
+    // return redirect()->route("customer.payment")->with('message', 'Successful');
     // return response()->json($double);
     }
 
-    public function AllCustomer(){
-    $registration = Registration::all();
-    return view('customer.index',compact('registration'));
-  }
+  //   public function AllCustomer(){
+  //   $registration = Registration::all();
+  //   return view('customer.index',compact('registration'));
+  // }
 
-   public function ViewDoubleCustomer($id) {
+  //  public function ViewDoubleCustomer($id) {
 
-    $registration = Registration::findorfail($id);
-    // return response()->json($student);
-    return view('customer.view',compact('registration'));
+  //   $registration = Registration::findorfail($id);
+  //   // return response()->json($student);
+  //   return view('customer.view',compact('registration'));
 
-  }
+  // }
 
-   public function DeleteSinglecustomer($id) {
-    $registration = Registration::findorfail($id);
-    $registration->delete();
-    return redirect()->back()->with('success', 'student deleted successfully!');
-  }
+  //  public function DeleteSinglecustomer($id) {
+  //   $registration = Registration::findorfail($id);
+  //   $registration->delete();
+  //   return redirect()->back()->with('success', 'student deleted successfully!');
+  // }
 }
