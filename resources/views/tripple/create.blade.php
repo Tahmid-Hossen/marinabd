@@ -51,7 +51,7 @@
 
                             <div class="form-group">
                               <label class="l-date" for="address">Address</label>
-                              <textarea type="text" name="address" cols="83" rows="5"></textarea>
+                              <textarea type="text" name="address" cols="70" rows="5"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary btn-lg btn-block mb-2">Submit</button>
                         </form>

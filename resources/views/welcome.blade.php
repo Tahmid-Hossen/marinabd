@@ -34,7 +34,7 @@
         <div class="menu">
             <ul>
               <li><a href="{{ url('/') }}">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
+              <li><a id="about-section" href="#">ABOUT</a></li>
               <li><a href="{{ Route('all.room') }}">ROOM</a></li>
               <li><a href="#">BLOG</a></li>
               <li><a href="#">CONTACTS</a></li>
