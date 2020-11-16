@@ -29,4 +29,15 @@ class HomeController extends Controller
      public function room() {
          return view('room');
      }
+     public function single() {
+         return view('blog.singlea');
+     }
+
+     public function double() {
+         return view('blog.doublea');
+     }
+
+     public function tripple() {
+         return view('blog.tripplea');
+     }
 }

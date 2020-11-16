@@ -8,6 +8,7 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <style type="text/css">
 body {
@@ -100,7 +101,7 @@ body {
 <div class="container">
     <div class="card card-login mx-auto text-center bg-dark">
         <div class="card-header mx-auto bg-dark">
-            <span> <img src="https://amar.vote/assets/img/amarVotebd.png" class="w-75" alt="Logo"> </span><br/>
+            <span> <img src="https://images.ecomclips.com/SPC/logoh.png" class="w-75" alt="Logo"> </span><br/>
                         <span class="logo_title mt-5"> Login Dashboard </span>
 <!--            <h1>--><?php //echo $message?><!--</h1>-->
 
@@ -108,8 +109,14 @@ body {
         <div class="card-body">
             <form method="POST" action="{{ route('login') }}">
             @csrf 
-
-            
+               @if($errors->any())
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                @foreach($errors->all() as $error)
+                <strong>{{$error}}</strong><br/>
+                @endforeach
+            </div>
+            @endif
                 <div class="input-group form-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fas fa-user"></i></span>

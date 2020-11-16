@@ -35,6 +35,11 @@ Route::get('payment/customer', function () {
 Route::get('room', 'HomeController@room')->name('all.room');
 
 
+Route::get('singlone', 'HomeController@single')->name('blog.singlea');
+Route::get('doubleone', 'HomeController@double')->name('blog.doublea');
+Route::get('trippleone', 'HomeController@tripple')->name('blog.tripplea');
+
+
 Route::get('single', 'SingleRoomController@single')->name('single.room');
 Route::post('store/single_room', 'SingleRoomController@store')->name('store.single_room');
 Route::get('reserve-room/customer', 'SingleRoomController@create')->name('reserve.roomcustomer');

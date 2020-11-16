@@ -87,7 +87,7 @@
                     <p><strong>Category: </strong>ROOMS</p>
                     <h4>New Rooms are affordable price</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempore modi nesciunt fuga vel, molestias mollitia numquam laboriosam quos impedit.</p>
-                    <a href="" class="readbtn">READ MORE</a>
+                    <a href="{{ Route('blog.singlea') }}" class="readbtn">READ MORE</a>
                     </div>
                 </div>
 
@@ -99,7 +99,7 @@
                     <p><strong>Category: </strong>ROOMS</p>
                     <h4>New Rooms are affordable price</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempore modi nesciunt fuga vel, molestias mollitia numquam laboriosam quos impedit.</p>
-                    <a href="" class="readbtn">READ MORE</a>
+                    <a href="{{ Route('blog.doublea') }}" class="readbtn">READ MORE</a>
                     </div>
                 </div>
 
@@ -111,7 +111,7 @@
                     <p><strong>Category: </strong>ROOMS</p>
                     <h4>New Rooms are affordable price</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempore modi nesciunt fuga vel, molestias mollitia numquam laboriosam quos impedit.</p>
-                    <a href="" class="readbtn">READ MORE</a>
+                    <a href="{{ Route('blog.tripplea') }}" class="readbtn">READ MORE</a>
                     </div>
                 </div>
                 </div>
